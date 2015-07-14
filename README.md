@@ -106,6 +106,29 @@ To see log messages
     git l
 ```
 
+## Useful
 
+Show the working tree status
+```bash
+    git status
+```
 
+Use git stash when you want to record the current state of the working directory and the index, but want to go back to a clean working directory. The command saves your local modifications away and reverts the working directory to match the HEAD commit.
+```bash
+    git stash
+```
 
+To replace last commit by a new one
+```bash
+git commit --amend
+```
+
+To commit in the futur:
+```bash
+git commit --date=1436876942
+```
+
+To undo something:
+```
+git reset
+````
