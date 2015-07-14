@@ -131,4 +131,33 @@ git commit --date=1436876942
 To undo something:
 ```
 git reset
-````
+```
+
+To create a new branch
+```
+git branch
+```
+
+To move to a branch
+```
+git checkout
+```
+
+Incorporates changes from a remote repository into the current branch
+```
+git pull
+```
+
+Show what revision and author last modified each line of a file
+```
+git blame 
+```
+
+Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.
+```
+git merge
+```
+
+
+https://www.atlassian.com/git/tutorials/
+http://git-scm.com/docs/git-pull
