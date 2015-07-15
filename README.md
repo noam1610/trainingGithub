@@ -196,7 +196,9 @@ The solution is to force it:
 git push -f
 ```
 
+####To change the message of only one commit:
 
+Use git ready but with the letter **r**
 
 
 
