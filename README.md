@@ -158,6 +158,35 @@ Incorporates changes from the named commits (since the time their histories dive
 git merge
 ```
 
+## Git alias
+
+Our useful alias:
+
+  **Create a new branch and go to it**
+```
+git cob
+```
+
+  **Add changes and commit it with "WIP" message**
+```
+git wip
+```
+
+  **Dealing with commit history**
+```
+git ready
+```
+
+#### To change commit history
+
+Use a **git ready**  
+Use f to delete the commit message. If then you find a conflict, find the file concerned (git s), resolve it and save it (git add .)  
+Then you can go on **git rebase --continue**
+
+
+
+
+
 
 https://www.atlassian.com/git/tutorials/
 http://git-scm.com/docs/git-pull
