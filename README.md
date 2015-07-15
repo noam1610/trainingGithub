@@ -188,6 +188,14 @@ Use a **git ready**
 Use f to delete the commit message. If then you find a conflict, find the file concerned (git s), resolve it and save it (git add .)  
 Then you can go on **git rebase --continue**
 
+#### Problem of rebase 
+
+If you have used a rebase, you have change the history so that you won't be able to push more because the trees don't match.
+The solution is to force it:
+```
+git push -f
+```
+
 
 
 
