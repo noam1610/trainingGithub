@@ -177,6 +177,11 @@ git wip
 git ready
 ```
 
+**Dealing with commit history from master **
+```
+git ready-root
+```
+
 #### To change commit history
 
 Use a **git ready**  
