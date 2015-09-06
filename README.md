@@ -158,6 +158,11 @@ Incorporates changes from the named commits (since the time their histories dive
 git merge
 ```
 
+If you want to ungit a repo, just delete the git file with :
+```
+rm -rf .git
+```
+
 ## Git alias
 
 Our useful alias:
@@ -200,6 +205,8 @@ git push -f
 
 Use git ready but with the letter **r**
 
+####Temporary notes
+Typical commit message : "feat(app): First commit"
 
 
 
